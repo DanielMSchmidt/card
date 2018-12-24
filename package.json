@@ -48,7 +48,8 @@
       "github": "DanielMSchmidt",
       "linkedin": "daniel-schmidt-69bab292",
       "web": "danielmschmidt.de",
-      "work": "Software Engineer"
+      "work": "Software Engineer",
+      "stackoverflow": "1559386"
     },
     "data": [
       "          <white>{{name}}</><green> / </><cyan>{{handle}}</>",
@@ -72,6 +73,10 @@
         "label": "GitHub",
         "text": "https://github.com/<green>{{github}}</>",
         "when": "{{github}}"
+      },
+      {
+        "label": "Stack Overflow",
+        "text": "https://stackoverflow.com/users/story/<magenta>{{stackoverflow}}</>"
       },
       {
         "label": "LinkedIn",
